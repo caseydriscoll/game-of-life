@@ -14,6 +14,7 @@ require 'colorize'
 @live = "O".blue
 @dead = "x".red
 
+# The world is dead at instantiation
 @world = Array.new(@size) { Array.new(@size) {@dead} }
 
 @oldWorld = Array.new

@@ -1,1 +1,5 @@
 Game of Life is a simple ruby implementation of Conway's Game of Life
+
+Todo:
+  Read from file
+  Escape data from styling

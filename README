@@ -1,5 +1,26 @@
 Game of Life is a simple ruby implementation of Conway's Game of Life
 
-Todo:
-  Read from file
-  Escape data from styling
+This project is terribly unfinished, but works.
+
+== Instalation ==
+You probably need the 'colorize' gem installed
+
+  > gem install colorize
+
+To start, make sure play.rb is set to executable 
+
+  > chmod +x play.rb
+
+Then simply run 
+
+  > ./play.rb
+
+== How it works ==
+
+Code generates a random world of live "Os" and dead "Xs" and then dumps every cycle to a timestamped folder in the 'plays' directory
+
+Styling is tied directly to the data with the 'colorize' gem though, the outputted files are ugly unless viewed in the commandline. Sorry
+
+== Todo ==
+*Read from file
+*Escape data from styling
